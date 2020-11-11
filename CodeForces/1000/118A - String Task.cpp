@@ -1,14 +1,14 @@
 #include<iostream>
 #include<string>
 using namespace std;
- 
+
 int main(){
 	string s;
-	char vowels[] = {'A', 'O', 'E', 'U', 'I'};
+	char vowels[] = {'A', 'O', 'Y', 'E', 'U', 'I'};
 	cin >> s;
 	
 	for(unsigned i=0; i<s.length(); i++){
-		for(int v=0; v<5; v++){
+		for(int v=0; v<6; v++){
 			if(s[i] == vowels[v] || s[i] == vowels[v] + 32 ){
 				s[i] = '*';
 			}
@@ -23,5 +23,5 @@ int main(){
 			cout << '.' <<s[i];
 		}
 	}
- 
+
 }
