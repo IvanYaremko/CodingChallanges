@@ -14,8 +14,5 @@ int main(){
 		}
 		n--;
 	}
-	
 	cout << l;
-	
-	
 }
