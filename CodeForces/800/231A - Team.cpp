@@ -9,7 +9,6 @@ int main(){
 	while(n>0){
 		cin >> p >> v >> t;
 		if((p+v+t) >= 2){
-			
 			l++;
 		}
 		n--;
