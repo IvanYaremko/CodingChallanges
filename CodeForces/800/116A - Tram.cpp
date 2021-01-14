@@ -15,6 +15,5 @@ int main()
 		if(total>cap) cap = total;
 		stops--;
 	}
-	
 	cout << cap;	
 }
